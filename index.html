@@ -3,29 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>document</title>
-    <link href="style.css" rel="stylesheet">
+    <title>Kamaleshwar's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 0.5em;
+            
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+        }
+        .container {
+            padding: 2em;
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="text-align: center;">WELCOME</h1>
-    <hr>
-    <form class="Body">
-       <label>Enter your name : <input type="text" placeholder="Enter your name"></label> 
-       <br>
-       <br>
-       <label>Enter your age : <input type="number" placeholder="Enter your age"></label>
-       <br>
-       <br>
-       <label>Gender  <a>Male :</a><input type="radio"></a><a>Female : <input type="radio"></a></label>
-       <br>
-       <br>
-       <label>Enter your password : <input type="text" placeholder="Enter your password"></label>
-
-    </form>
-    <div class="List">
-    <ol>
-        <li>dhoni</li>
-    </ol>
+    <header>
+        <h1>Pranav Vijay Pandian's Portfolio</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to My Portfolio</h2>
+            <p>This is a brief introduction about myself and my work.</p>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Name: Pranav Vijay Pandian</p>
+            <p>Education: B.E ECE</p>
+            <p>College: Sri Krishna College of Engineering and Technology</p>
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <p>Showcase your projects with descriptions and links.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Provide your contact information or a contact form here.</p>
+        </section>
     </div>
+    <footer>
+        <p>© 2025 Pranav Vijay Pandian's Portfolio</p>
+    </footer>
 </body>
 </html>
